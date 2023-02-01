@@ -32,7 +32,7 @@ body{
     /* background-blend-mode: soft-light; */
         /* https://developer.mozilla.org/ja/docs/Web/CSS/background-blend-mode */
 
-    background-image: url(../img/topimg2.JPG);
+    background-image: url(../img/tree.jpg);
         /* https://developer.mozilla.org/ja/docs/Web/CSS/background-image */
     background-size: cover;
         /* https://developer.mozilla.org/ja/docs/Web/CSS/background-size */
@@ -53,12 +53,14 @@ header, footer, h1, h2, h3, p, div, .container01, .filler01 {
 h1 {
     font: 2em Rajdhani, "Noto Sans JP";
     color: rgb(181, 242, 252);
-    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    background-color: radial-gradient(circle 248px at center, #470c25 0%, #db1838 47%, #f00f0f 100%);
+   /* background-color:rgba(245, 245, 245, 0.6);*/
+    box-shadow:0 0 0.5em rgb(73, 72, 72);
 }
 
 h2{
     padding-left: 0.5em;
-    border-left: solid 0.5em darkgray;
+    border-left: solid 0.5em rgb(231, 15, 15);
     text-align: left;
 }
 
@@ -84,8 +86,8 @@ h2{
     width: 80%;
     border-radius: 0.5em 1.5em;
         /* https://developer.mozilla.org/ja/docs/Web/CSS/border-radius */
-    background-color:rgba(245, 245, 245, 0.6);
-    box-shadow:0 0 0.5em rgb(73, 72, 72);
+    /*background-color:rgba(245, 245, 245, 0.6);
+    box-shadow:0 0 0.5em rgb(73, 72, 72);*/
         /* https://developer.mozilla.org/ja/docs/Web/CSS/box-shadow */
 }
 main > p {
@@ -96,7 +98,7 @@ main > p {
 /* アンカー(anchor)           */
 /*****************************/
 a {
-    color: black;
+    color: rgb(252, 244, 244);
     font-weight: 900;
     text-decoration: none;
         /* https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration */
